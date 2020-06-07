@@ -1,7 +1,7 @@
 # - Finger Exercise - Chapter 3.1
 num = int(input('Please enter an integer: '))
 root = 0
-pwr = 2
+pwr = 2     # Started at 2 because all sets allowed for root**1 = num
 endbound = 6
 while pwr < endbound and root**pwr != abs(num):
     while root < abs(num):
