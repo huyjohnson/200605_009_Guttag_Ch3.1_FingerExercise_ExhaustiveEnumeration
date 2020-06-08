@@ -18,6 +18,7 @@ while pwr < endbound and root**pwr != abs(num):
     elif root == abs(num):
         root = 0
     pwr += 1
-    
-if pwr == endbound:
+if root == 0:   # Accounting for '0' integer
+    print('root = {}, pwr = {}'.format(root,pwr))
+elif pwr == endbound:
     print('No existing set of integers.')
